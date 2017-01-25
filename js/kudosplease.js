@@ -256,7 +256,7 @@
       // Amount is 0
       if (loadAmount(i, this) == 0) {
         // Set kudos amount
-        el.setAttribute('data-amount', 0);
+        el.setAttribute('data-amount', "loading");
 
         // Init timer id
         this.timer[i] = -1;
